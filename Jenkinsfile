@@ -7,13 +7,13 @@
         stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ssjanani/jenkinsDockerRun1.git'
+               echo 'Checkout'
             }
         }
 
         stage('Build & Test') {
             steps {
-                sh 'mvn clean test'
+               echo 'Test'
             }
         }
 

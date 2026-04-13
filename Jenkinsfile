@@ -18,6 +18,7 @@
                 echo 'Generate Allure Report'
             }
         }
+        }
          post {
         always {
 
@@ -31,4 +32,4 @@
         }
     }
 }
- }
+ 
